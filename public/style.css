@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 10px; /* Further decreased padding */
+    border-radius: 6px; /* Decreased border-radius */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Decreased box-shadow */
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 10px; /* Further decreased font size */
+    margin-bottom: 4px; /* Further decreased margin */
+    color: #333;
+}
+
+input,
+select,
+button {
+    padding: 6px; /* Further decreased padding */
+    margin-bottom: 8px; /* Further decreased margin */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px; /* Further decreased font size */
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input[type="file"] {
+    margin-bottom: 10px; /* Further decreased margin */
+}
+
+#passwordStrength {
+    margin-bottom: 8px; /* Further decreased margin */
+    font-size: 8px; /* Further decreased font size */
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    font-size: 10px; /* Further decreased font size */
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.g-recaptcha {
+    margin-bottom: 8px; /* Further decreased margin */
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        max-width: none;
+    }
+}
